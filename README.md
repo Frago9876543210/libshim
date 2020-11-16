@@ -21,7 +21,7 @@ set(LIBSHIM_BUILD_TYPE "STATIC" CACHE INTERNAL "")
 set(SYMBOLS_SHIM_PATH "${PROJECT_SOURCE_DIR}/shim_demo" CACHE INTERNAL "")
 FetchContent_Declare(shim
     GIT_REPOSITORY https://github.com/Frago9876543210/libshim
-    GIT_TAG v1.0.0)
+    GIT_TAG 1.0.0)
 FetchContent_MakeAvailable(shim)
 
 add_library(injector SHARED injector.cpp)
